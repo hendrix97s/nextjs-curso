@@ -5,7 +5,7 @@ export default function Pants()
 {
 
   const router = useRouter();
-  const  {color} =  router.query;
+  const  color =  router.query.color;
 
   return (
     <>

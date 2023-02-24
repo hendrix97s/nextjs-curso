@@ -1,5 +1,5 @@
 type PropsColor = {
-  color: String
+  color: any
 }
 
 export function PantsComponent( props: PropsColor) {
