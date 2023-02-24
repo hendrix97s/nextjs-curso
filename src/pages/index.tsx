@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { HelloWorld } from '@/components/HelloWorld'
 import Link from 'next/link'
+import { Navbar } from '@/components/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,10 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <ul>
-          <li><Link href='/products'>Products</Link></li>
-          <li><Link href='/about'>About</Link></li>
-        </ul>
+        <Navbar></Navbar>
       </main>
     </>
   )

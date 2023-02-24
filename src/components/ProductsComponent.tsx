@@ -1,11 +1,12 @@
 import Link from "next/link"
+import { Navbar } from "./Navbar"
 
 export function ProductsComponent()
 {
   return (
     <>
       <ul>
-        <li><Link href="/">Home</Link></li>
+        <Navbar/>
         <li><Link href="/products/pants/red">Red Pants</Link></li>
         <li><Link href="/products/pants/blue">Blue Pants</Link></li>
       </ul>
